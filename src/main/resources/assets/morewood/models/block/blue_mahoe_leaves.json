@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "morewood:block/blue_mahoe_leaves"
+  }
+}

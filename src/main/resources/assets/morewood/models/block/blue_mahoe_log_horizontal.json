@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "morewood:block/blue_mahoe_log_top",
+    "side": "morewood:block/blue_mahoe_log"
+  }
+}

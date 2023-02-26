@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# MoreWood
 
-## Setup
+## What is it?
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+A fabric mod for Minecraft that adds extra wood to the game
 
-## License
+## Current Additons:
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Blue Mahoe Wood Type

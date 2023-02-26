@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "morewood:blue_mahoe_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "morewood:blue_mahoe_planks"
+  }
+}
