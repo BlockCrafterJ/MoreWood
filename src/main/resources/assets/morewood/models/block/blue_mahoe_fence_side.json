@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "morewood:block/blue_mahoe_planks"
+  }
+}
