@@ -24,6 +24,10 @@ public class MoreWood implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("morewood");
+
+
+	//BLUE MAHOE
+
 	public static final Block BLUE_MAHOE_PLANKS = new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS));
 	public static final Block BLUE_MAHOE_LOG = new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG));
 	public static final Block BLUE_MAHOE_WOOD = new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD));
@@ -33,6 +37,7 @@ public class MoreWood implements ModInitializer {
 	public static final Block BLUE_MAHOE_SAPLING = new SaplingBlock(new BlueMahoeSaplingGenerator(), FabricBlockSettings.copy(Blocks.OAK_SAPLING));
 	public static final Block BLUE_MAHOE_FENCE = new FenceBlock(FabricBlockSettings.copy(Blocks.OAK_FENCE));
 	public static final Block BLUE_MAHOE_FENCE_GATE = new FenceGateBlock(FabricBlockSettings.copy(Blocks.OAK_FENCE));
+	public static final Block BLUE_MAHOE_DOOR = new DoorBlock(FabricBlockSettings.copy(Blocks.OAK_DOOR));
 
 	@Override
 	public void onInitialize() {
@@ -41,6 +46,9 @@ public class MoreWood implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Thanks for using MoreWood by Block Crafter J!");
+
+
+		//BLUE MAHOE
 
 		Registry.register(Registry.BLOCK, new Identifier("morewood", "blue_mahoe_planks"), BLUE_MAHOE_PLANKS);
 		Registry.register(Registry.BLOCK, new Identifier("morewood", "blue_mahoe_log"), BLUE_MAHOE_LOG);
@@ -51,6 +59,7 @@ public class MoreWood implements ModInitializer {
 		Registry.register(Registry.BLOCK, new Identifier("morewood", "blue_mahoe_sapling"), BLUE_MAHOE_SAPLING);
 		Registry.register(Registry.BLOCK, new Identifier("morewood", "blue_mahoe_fence"), BLUE_MAHOE_FENCE);
 		Registry.register(Registry.BLOCK, new Identifier("morewood", "blue_mahoe_fence_gate"), BLUE_MAHOE_FENCE_GATE);
+		Registry.register(Registry.BLOCK, new Identifier("morewood", "blue_mahoe_door"), BLUE_MAHOE_DOOR);
 
 		Registry.register(Registry.ITEM, new Identifier("morewood", "blue_mahoe_planks"), new BlockItem(BLUE_MAHOE_PLANKS, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 		Registry.register(Registry.ITEM, new Identifier("morewood", "blue_mahoe_log"), new BlockItem(BLUE_MAHOE_LOG, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
@@ -61,6 +70,7 @@ public class MoreWood implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("morewood", "blue_mahoe_sapling"), new BlockItem(BLUE_MAHOE_SAPLING, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 		Registry.register(Registry.ITEM, new Identifier("morewood", "blue_mahoe_fence"), new BlockItem(BLUE_MAHOE_FENCE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 		Registry.register(Registry.ITEM, new Identifier("morewood", "blue_mahoe_fence_gate"), new BlockItem(BLUE_MAHOE_FENCE_GATE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+		Registry.register(Registry.ITEM, new Identifier("morewood", "blue_mahoe_door"), new BlockItem(BLUE_MAHOE_DOOR, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 
 		ModFlammableBlocks.registerFlammableBlocks();
 		ModStrippableBlocks.registerStrippables();
